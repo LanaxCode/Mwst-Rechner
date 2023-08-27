@@ -8,7 +8,6 @@ const resultWwst = document.getElementById('resultMwst')
 const endBetrag = document.getElementById('endbetrag')
 const textMwst = document.getElementById('textMwst')
 
-
 let calc = () => {
     if (NettoBrutto.checked == true && steuerSatz19.checked == true) {
         result.innerHTML = (number.value * 1.19).toFixed(2).concat("€");
@@ -43,10 +42,3 @@ let text = () => {
         textMwst.innerHTML = ("Bruttobetrag (Preis inklusive Mehrwertsteuer) in Euro")
     }
 }
-
-
-
-
-
-
-
